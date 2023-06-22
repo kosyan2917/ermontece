@@ -1,0 +1,29 @@
+.logo {
+    max-height: 30px;
+}
+.navbar-brand {
+    padding-left: 7%;
+    filter: blur(0.5px);
+    padding-right: 4%;
+
+}
+.nav-item {
+    padding-left: 4%;
+
+}
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 15px black;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    background: linear-gradient(112.54deg, #39E639 35.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
