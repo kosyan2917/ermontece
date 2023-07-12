@@ -1,9 +1,10 @@
 .flex {
     display: flex;
-    padding-top:0;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 10%;
+    margin-top:0;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    align-items: center;
 }
 h3 {
     font-size: 5em;
@@ -15,4 +16,35 @@ h3 {
     background: linear-gradient(112.54deg, #39E639 35.34%, #9AEB9A 106.84%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.team-dots {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    padding-left: 3em;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Arial Black", serif;
+    color: #39e43a
+
+
+}
+
+.team-border-top {
+    margin-top: 1.2em;
+    margin-left: 0.1em;
+    background-color: #222223;
+    color: #222223;
+    border-top: 0.65em solid #39e43a;
+    border-right: 0.65em solid #39e43a;
+    width: 10%;
+    height: 100%;
+}
+
+.team-border-right {
+    margin-top: 6.85em;
+    background-color: #222223;
+    color: #222223;
+    border-right: 0.65em solid #39e43a;
+    height: 100px;
 }
