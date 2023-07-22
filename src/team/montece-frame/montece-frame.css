@@ -1,0 +1,59 @@
+.team-montece {
+    text-align: start;
+    border: 5px solid #39e43a;
+    grid-area: a;
+    /*max-height: 400px;*/
+    display: grid;
+    grid-template-rows: auto 20px auto;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+}
+
+.team-montece h1, .team-montece h4 {
+    /* 21 год, программист, team-lead */
+    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #39E639;
+
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.image-montece {
+    grid-row: 1 / 4;
+    max-height: 350px;
+    padding-left: 15px;
+    padding-top: 15px;
+    align-self: center;
+    justify-self: center;
+}
+
+.status-montece {
+    grid-row: 2/3;
+    font-size: medium;
+    height: 20px;
+}
+
+.header-montece {
+    background: linear-gradient(0.54deg, #39E639 3.34%, #9AEB9A 1006.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    grid-row: 1/2;
+    /*margin-top: 10px;*/
+    /*padding-top: 20px;*/
+    font-size: larger;
+    align-self: end;
+    grid-column: 2/3;
+}
+
+p {
+    padding-left: 0;
+    font-size: medium;
+    padding-right: 100px;
+    align-self: center;
+}

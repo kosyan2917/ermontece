@@ -1,0 +1,17 @@
+.games-header h1 {
+    font-size: 5vw;
+    padding-bottom: 60px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    background: linear-gradient(112.54deg, #39E639 35.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.games-header {
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
+

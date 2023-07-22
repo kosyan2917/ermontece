@@ -1,0 +1,84 @@
+.game-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.game-grid div {
+    padding-left: 5%;
+}
+
+.game-header *{
+    text-align: start;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+.game-header {
+    padding-top: 2%
+}
+
+.game-description {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    color: black;
+    width: 60%;
+}
+
+.game-button {
+    padding-bottom:5%;
+    display: flex;
+}
+
+.game-button button {
+    align-self: start;
+    background-color: black;
+    border: #39e43a 3px solid;
+    outline: black 1px solid;
+    width: 25%;
+    height: 150%;
+    justify-content: center;
+}
+
+.game-button button:hover {
+    background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
+    text-shadow: 0 0 0  black;
+}
+
+.game-button button:focus {
+    outline: black 1px solid;
+}
+
+.game-button button:active {
+    animation-name: games-more-button;
+    background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
+    text-shadow: 0 0 0  black;
+}
+
+.game-button button span {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    background: linear-gradient(to right, #39E639 48.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes games-more-button {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
+}
