@@ -1,0 +1,27 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 5px auto;
+}
+
+.contact-linedots {
+    display: grid;
+}
+
+.contact-line {
+    height: 5px;
+    width: 20px;
+    background-color: #39e43a;
+}
+
+.contact-dot {
+    height: 5px;
+    width: 5px;
+    background-color: #39e43a;
+}
+
+.contact-vline {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-left: 5px solid #39e43a;
+}

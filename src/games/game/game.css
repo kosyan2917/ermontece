@@ -52,11 +52,15 @@
 }
 
 .game-button button:focus {
+    background-color: black;
+    border: #39e43a 3px solid;
     outline: black 1px solid;
-}
+    animation-duration: 0.4s;
+    animation-name: games-more-button;
+    }
 
 .game-button button:active {
-    animation-name: games-more-button;
+
     background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
     text-shadow: 0 0 0  black;
 }
@@ -72,13 +76,45 @@
 
 @keyframes games-more-button {
     0% {
-        transform: translateX(0px);
+        background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
+    }
+    6% {
+        background: linear-gradient(to right, black 20.34%, #39E639 45.84%);
+    }
+    12% {
+        background: linear-gradient(to right, black 20.34%, #39E639 50.84%);
+    }
+    25% {
+        background: linear-gradient(to right, black 20.34%, #39E639 60.84%);
+    }
+    37% {
+        background: linear-gradient(to right, black 20.34%, #39E639 70.84%);
     }
     50% {
-        transform: translateX(10px);
+        background: linear-gradient(to right, black 20.34%, #39E639 80.84%);
     }
-    100% {
-        transform: translateX(0px);
+    67% {
+        background: linear-gradient(to right, black 20.34%, #39E639 85.84%);
+    }
+    75% {
+        background: linear-gradient(to right, black 20.34%, #39E639 90.84%);
     }
 
+    81% {
+        background: linear-gradient(to right, black 20.34%, #39E639 95.84%);
+    }
+
+    87% {
+        background: linear-gradient(to right, black 20.34%, #39E639 100.84%);
+    }
+    100% {
+        background: linear-gradient(to right, black 20.34%, #39E639 4000.84%);
+    }
+
+}
+
+@keyframes text-animation {
+    50% {
+        background: linear-gradient(to right, #39E639 48.34%, #9AEB9A 106.84%);
+    }
 }
