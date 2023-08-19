@@ -10,10 +10,10 @@
  align-items: start;
 }
 
-p {
- padding-left: 3%;
+.gaming p {
+ padding: 0;
  text-align: left;
- font-size: 1.8vw;
+ font-size: 2vw;
 }
 
 .montece {

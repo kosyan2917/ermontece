@@ -13,7 +13,7 @@
     grid-column: 3/4;
     grid-row: 1/4;
     justify-self: end;
-    width: 100%;
+    width: 70%;
 
 }
 
@@ -34,7 +34,7 @@
     grid-row: 2/3;
     font-family: 'Gilroy-Bold', sans-serif;
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: white;
     background: none;
 }
@@ -60,6 +60,7 @@
     border: 3px solid black;
     outline: 1px solid #39E639;
     width: 70%;
+    max-width: 300px;
 
 }
 

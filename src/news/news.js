@@ -42,9 +42,31 @@ export default class News extends Component {
         }
         return <div className={"news"}>
             <div className={"news-header"}>
+                <div className={"news-dots-right"}>
+                    <div className={"news-line"}>
+                    </div>
+                    <div></div>
+                    <div className={"news-dot"}></div>
+                    <div></div>
+                    <div className={"news-dot"}></div>
+                    <div></div>
+                    <div className={"news-dot"}></div>
+                    <div></div>
+                </div>
                 <h1> НОВОСТИ </h1>
-                {NewsPosts}
+                <div className={"news-dots-left"}>
+                    <div></div>
+                    <div className={"news-dot"}></div>
+                    <div></div>
+                    <div className={"news-dot"}></div>
+                    <div></div>
+                    <div className={"news-dot"}></div>
+                    <div></div>
+                    <div className={"news-line"}>
+                </div>
             </div>
+            </div>
+            {NewsPosts}
             <button className={"posts-button"}>
                 <span> Больше новостей </span>
             </button>

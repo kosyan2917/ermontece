@@ -1,0 +1,38 @@
+.contacts {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 300px;
+
+}
+
+.contacts-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: start;
+
+}
+
+
+.contacts h1 {
+    text-align: start;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 1000;
+    font-size: 5vw;
+    background: linear-gradient(to right, #39E639 0.34%, #9AEB9A 100.84%);
+    margin-bottom: 100px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contacts-image {
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 1/6;
+}
+
+.contacts-header {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr 4fr;
+
+}
