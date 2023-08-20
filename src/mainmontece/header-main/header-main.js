@@ -1,7 +1,7 @@
 import "./header-main.css"
 import CardToggler from "../card-toggler/cardtoggler";
 const HeaderMain = () => {
-    return <div className={"main-div"}>
+    return <div className={"main-div"} id={'main'}>
         <div>
             <h1 className={"montece"}>MONTECE</h1>
         </div>

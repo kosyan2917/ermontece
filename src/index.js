@@ -3,13 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
-import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import NewsPage from "./news-page/news-page";
 
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <App/>
+    },
+    {
+        path: 'news',
+        element: <NewsPage/>
+    }
+
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App/>
+      <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

@@ -3,7 +3,7 @@ import MonteceFrame from "../montece-frame/montece-frame";
 import TeammateFrame from "../teammate_frame/teammate-frame";
 
 const Team = () => {
-    return <div className={"team"}>
+    return <div className={"team"} id={'team'}>
         <div className={"team-header-grid"}>
         <h1> НАША ДРУЖНАЯ КОМАНДА </h1>
         <div className={"team-dots"}>

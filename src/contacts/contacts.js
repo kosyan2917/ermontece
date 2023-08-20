@@ -3,7 +3,7 @@ import Contact from "./contact/contact";
 
 
 const Contacts = () => {
-    return <div className={"contacts"}>
+    return <div className={"contacts"} id={'contacts'}>
         <div className={"contacts-header"}>
             <h1> КОНТАКТЫ </h1>
             <div className={"news-dots-right"}>

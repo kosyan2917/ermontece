@@ -12,19 +12,20 @@
 .games-header {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    /*align-items: center;*/
 }
 
 .games-dots {
-    display: grid;
+    display: inline-grid;
+    padding-bottom: 60px;
     height: 100%;
     width: 100%;
     grid-template-columns: repeat(7, 5px) auto;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-self: center;
+    grid-template-rows: 1fr;
+    align-items: center;
 }
 
 .games-dots * {
-    grid-row: 2/3
 }
 
 .games-dot {

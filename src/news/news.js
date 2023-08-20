@@ -2,7 +2,7 @@ import "./news.css"
 import {Component} from "react";
 import APIService from "../services/APIService";
 import NewsPost from "./news-post/news-post";
-
+import {Link} from "react-router-dom";
 export default class News extends Component {
 
     _api_service = new APIService();
@@ -40,7 +40,7 @@ export default class News extends Component {
                 NewsPosts.push(<NewsPost news_options={posts[i]}/>)
             }
         }
-        return <div className={"news"}>
+        return <div className={"news"} id={"news"}>
             <div className={"news-header"}>
                 <div className={"news-dots-right"}>
                     <div className={"news-line"}>
@@ -67,9 +67,11 @@ export default class News extends Component {
             </div>
             </div>
             {NewsPosts}
-            <button className={"posts-button"}>
-                <span> Больше новостей </span>
-            </button>
+            <Link to={'news'}>
+                <button className={"posts-button"}>
+                    <span> Больше новостей </span>
+                </button>
+            </Link>
         </div>;
     }
 }
