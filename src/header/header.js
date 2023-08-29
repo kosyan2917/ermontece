@@ -22,19 +22,19 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarColor02">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#main">Главная</a>
+                        <a className="nav-link" href="/#main">Главная</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#team">Команда</a>
+                        <a className="nav-link" href="/#team">Команда</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#news">Новости</a>
+                        <a className="nav-link" href="/#news">Новости</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#games">Игры</a>
+                        <a className="nav-link" href="/#games">Игры</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contacts">Контакты</a>
+                        <a className="nav-link" href="/#contacts">Контакты</a>
                     </li>
                 </ul>
             </div>

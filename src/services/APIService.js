@@ -17,4 +17,8 @@ export default class APIService {
         return await this.getResource(`/posts/`);
     }
 
+    async getPostsPage(page) {
+        return await this.getResource(`/posts/?page=${page}`);
+    }
+
 }
