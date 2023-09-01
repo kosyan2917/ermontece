@@ -1,0 +1,24 @@
+.single-post-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.single-post {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+.single-post-date {
+    width: 12%;
+    font-size: 1vw;
+    height: 1.2vw;
+}
+
+.single-post p {
+    padding: 0;
+}
+
+.single-post img {
+        max-width: 100%;
+}

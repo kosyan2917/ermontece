@@ -1,5 +1,6 @@
 import "./news-post.css"
 import newsPost from "./news-post";
+import {Link} from "react-router-dom";
 
 const NewsPost = (news_options) => {
     console.log(news_options)
@@ -11,9 +12,14 @@ const NewsPost = (news_options) => {
         </h4>
         <div className={'post-description'}> {news_options.description}</div>
         <img className={'post-image'} src={news_options.image}/>
-        <button className={"post-button"} onClick={to_post.bind(this, news_options.link)}>
-            <span> Читать </span>
-        </button>
+        <div className={'button-link'}>
+            <Link to={`/news/${news_options.id}`} className={'link'}>
+                <button className={"post-button"}>
+                    <span> Читать </span>
+                </button>
+            </Link>
+        </div>
+
     </div>
 }
 

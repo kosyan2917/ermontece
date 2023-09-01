@@ -14,11 +14,15 @@ export default class APIService {
     }
 
     async getPosts() {
-        return await this.getResource(`/posts/`);
+        return await this.getResource(`/new_posts/`);
     }
 
     async getPostsPage(page) {
         return await this.getResource(`/posts/?page=${page}`);
+    }
+
+    async getPost(id) {
+        return await this.getResource(`/posts/${id}`);
     }
 
 }

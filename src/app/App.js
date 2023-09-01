@@ -6,6 +6,9 @@ import Team from "../team/main_frame/team";
 import Games from "../games/games";
 import News from "../news/news";
 import Contacts from "../contacts/contacts";
+import {Route, Routes} from "react-router-dom";
+import SinglePostsPage from "../single-posts-page/single-posts-page";
+import NewsPage from "../news-page/news-page";
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
         <Games/>
         <News/>
         <Contacts/>
+
     </div>
   );
 }
