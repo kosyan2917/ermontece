@@ -1,6 +1,8 @@
 import "./team.css"
 import MonteceFrame from "../montece-frame/montece-frame";
 import TeammateFrame from "../teammate_frame/teammate-frame";
+import montece from "../../images/pngwing.com.png"
+
 
 const Team = () => {
     return <div className={"team"} id={'team'}>
@@ -24,25 +26,25 @@ const Team = () => {
         </div>
         </div>
         <div className={"team-grid"}>
-            <MonteceFrame teammate={"teammate.jpg"}/>
+            <MonteceFrame teammate={montece}/>
             <div className={"team-grid-row1"}>
                 <div className={"vl1"}></div>
-                <TeammateFrame name={"Гений"} surname={"Жизни"} role={"Отец русской демократии"} photo={"teammate.jpg"}
+                <TeammateFrame name={"Евгений"} surname={""} role={"Игровой сценарист"} photo={montece}
                                area={"g"}/>
                 <div className={"hl1"}></div>
-                <TeammateFrame name={"Барак"} surname={"Обама"} role={"Ну типа"} photo={"teammate.jpg"} area={"e"}/>
+                <TeammateFrame name={"Елисей"} surname={""} role={"2D-художник"} photo={montece} area={"e"}/>
                 <div className={"hl2"}></div>
-                <TeammateFrame name={"Барак"} surname={"Обама"} role={"Ну типа"} photo={"teammate.jpg"} area={"c"}/>
+                <TeammateFrame name={"Иван"} surname={""} role={"2D-художник"} photo={montece} area={"c"}/>
                 <div className={"vl2"}></div>
             </div>
             <div className={"team-grid-row2"}>
-                <TeammateFrame name={"Барак"} surname={"Обама"} role={"Ну типа"} photo={"teammate.jpg"} area={"j"}/>
+                <TeammateFrame name={"Егор"} surname={""} role={"Геймдизайнер"} photo={montece} area={"j"}/>
                 <div className={"hl3"}></div>
-                <TeammateFrame name={"Барак"} surname={"Обама"} role={"Ну типа"} photo={"teammate.jpg"} area={"k"}/>
+                <TeammateFrame name={"Валерий"} surname={""} role={"Геймдизайнер, программист"} photo={montece} area={"k"}/>
                 <div className={"hl4"}></div>
-                <TeammateFrame name={"Барак"} surname={"Обама"} role={"Ну типа"} photo={"teammate.jpg"} area={"p"}/>
+                <TeammateFrame name={"Барак"} surname={""} role={"Ну типа"} photo={montece} area={"p"}/>
                 <div className={"hl5"}></div>
-                <TeammateFrame name={"Барак"} surname={"Обама"} role={"Ну типа"} photo={"teammate.jpg"} area={"i"}/>
+                <TeammateFrame name={"Барак"} surname={""} role={"Ну типа"} photo={montece} area={"i"}/>
             </div>
 
         </div>
