@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../header/header";
 import APIService from "../services/APIService";
 import NewsPost from "../news/news-post/news-post";
+import {Link} from "react-router-dom";
 
 
 
@@ -109,10 +110,15 @@ export default class NewsPage extends React.Component {
         return <div>
             {/*<Header/>*/}
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <a className="navbar-brand " href="/">
-                        <img src={montece} className={"d-inline-block logo"}/>
-                    </a>
+
+                <a className="navbar-brand" href="/">
+                    <img src={montece} className={"d-inline-block logo"}/>
+                </a>
+
+                <div className="container-fluid link-no-style">
+                    <Link to={"/"} className={"colored"}>
+                        На главную
+                    </Link>
                 </div>
             </nav>
             <div className={"news-page"}>

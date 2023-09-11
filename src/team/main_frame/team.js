@@ -42,9 +42,18 @@ const Team = () => {
                 <div className={"hl3"}></div>
                 <TeammateFrame name={"Валерий"} surname={""} role={"Геймдизайнер, программист"} photo={montece} area={"k"}/>
                 <div className={"hl4"}></div>
-                <TeammateFrame name={"Барак"} surname={""} role={"Ну типа"} photo={montece} area={"p"}/>
+                <TeammateFrame name={"Дмитрий"} surname={""} role={"Программист"} photo={montece} area={"p"}/>
                 <div className={"hl5"}></div>
-                <TeammateFrame name={"Барак"} surname={""} role={"Ну типа"} photo={montece} area={"i"}/>
+                <TeammateFrame name={"Иван"} surname={""} role={"2D-художник"} photo={montece} area={"i"}/>
+            </div>
+            <div className={"team-grid-row1"}>
+                <div className={"vl1"}></div>
+                <TeammateFrame name={"Никита"} surname={""} role={"Программист"} photo={montece}
+                               area={"g"}/>
+                <div className={"hl1"}></div>
+                <TeammateFrame name={"Артемий"} surname={""} role={"2D-художник"} photo={montece} area={"e"}/>
+                <div className={"hl2"}></div>
+                <TeammateFrame name={"Савва"} surname={""} role={"Комьюнити-менеджер"} photo={montece} area={"c"}/>
             </div>
 
         </div>

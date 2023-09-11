@@ -1,5 +1,5 @@
 import "./single-posts-page.css"
-import {useMatches, useParams} from "react-router-dom";
+import {Link, useMatches, useParams} from "react-router-dom";
 import React, {Component, Fragment} from "react";
 import APIService from "../services/APIService";
 import montece from "../images/MonteceLogo.png";
@@ -39,11 +39,22 @@ class SinglePostsPage extends Component {
         console.log(this.props.params)
         return <Fragment>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <a className="navbar-brand " href="/">
-                        <img src={montece} className={"d-inline-block logo"}/>
-                    </a>
+
+                <a className="navbar-brand" href="/">
+                    <img src={montece} className={"d-inline-block logo"}/>
+                </a>
+
+                <div className="link-no-style">
+                    <ul className="navbar-nav">
+                        <li className="nav-item nav-el">
+                            <Link to={'/'} className={"colored"}> На главную </Link>
+                        </li>
+                        <li className="nav-item nav-el">
+                            <Link to={'/news'} className={"colored"}> Назад к новостям </Link>
+                        </li>
+                    </ul>
                 </div>
+
             </nav>
             <div className={'single-post'}>
                 <div className={"single-post-header"}>

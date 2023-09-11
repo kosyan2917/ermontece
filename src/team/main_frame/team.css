@@ -82,6 +82,11 @@
     "i i o p p l k k s j j";
 }
 
+.team-grid-row3 {
+    display: grid;
+
+}
+
 .vl1 {
     grid-area: b;
     grid-column: 2/3;

@@ -2,6 +2,11 @@ import "./game.css"
 
 const Game = (game_options) => {
 
+    const toLink = () => {
+        document.location.href = game_options.link
+    }
+
+
     return <div className={"game"}>
         <div className={"game-grid"} style={{
             backgroundImage: ["linear-gradient(150deg, rgba(17, 214, 66, 100) 30%, rgba(17, 214, 66, .30) 70%)",
@@ -13,12 +18,14 @@ const Game = (game_options) => {
                 <p> {game_options.description} </p>
             </div>
             <div className={"game-button"}>
-                <button>
+                <button onClick={toLink}>
                     <span> Подробнее </span>
                 </button>
             </div>
         </div>
     </div>
 }
+
+
 
 export default Game
